@@ -18,7 +18,7 @@ function renderGalleryItems() {
     </li>`
   ).join('')
 
-    gallery.innerHTML = galleryMarkup;
+    gallery.innerHTML = galleryMarkup; 
 }
 
 renderGalleryItems(galleryItems);
